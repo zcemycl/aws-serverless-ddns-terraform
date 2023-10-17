@@ -13,11 +13,7 @@ jobs:
     strategy:
       matrix:
         path:
-         - architectures/apigw-nlb-ec2
-         - architectures/apigw-nlb-ecs
-         - architectures/apigw-public-ec2
-         - architectures/cloudmap-vpn-ecs
-         - architectures/vanilla-ec2
+         - architecture/
     runs-on: ubuntu-latest
     steps:
      - name: Checkout the repository to the runner
