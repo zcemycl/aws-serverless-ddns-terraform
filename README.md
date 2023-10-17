@@ -1,6 +1,8 @@
 # aws-serverless-ddns-terraform
 The repository to deploy ddns through terraform into aws environment, using API Gateway, Route53 and Lambda. It implements the architecture suggested by [Building a serverless dynamic DNS system with AWS](https://aws.amazon.com/blogs/startups/how-to-build-a-serverless-dynamic-dns-system-with-aws/#:~:text=AWS%20Services%20We%20Use%20in%20Our%20Dynamic%20DNS%20system&text=Your%20code%20is%20always%20ready,events%20from%20other%20AWS%20services) and improves it by introducing API-Gateway so DDNS is protected away from non-intended users.
 
+![architecture](resources/architecture.png)
+
 ## How to run?
 1. Set up the infrastructure by terraform.
     ```bash
